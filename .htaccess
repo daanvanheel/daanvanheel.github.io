@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^daanvanheel.be [NC]
+RewriteRule ^(.*)$ https://www.daanvanheel.be/$1 [L,R=301]
