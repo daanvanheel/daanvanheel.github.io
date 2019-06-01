@@ -14,6 +14,19 @@
   }
 }
 
+.page a{
+  color: $gray-4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page a:hover{
+  color: $gray-4;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 4px solid $link-color;
+}
+
 // Blog post or page title
 .page-title,
 .post-title,
@@ -65,5 +78,20 @@
         color: inherit;
       }
     }
+  }
+}
+
+// afbeeldingen
+
+.infodaan {
+  @media (min-width: $large-breakpoint) {
+    margin-right: -50px;
+    background-image: url('public/daan.jpg');
+    padding-right: 45%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    padding-bottom: 15px;
+    margin-bottom: -35px;
   }
 }
