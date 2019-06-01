@@ -86,7 +86,7 @@
 .infodaan {
   @media (min-width: $large-breakpoint) {
     margin-right: -50px;
-    background-image: url('public/daan.jpg');
+    background-image: url('./public/daan.jpg');
     padding-right: 45%;
     background-repeat: no-repeat;
     background-size: contain;
