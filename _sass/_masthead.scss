@@ -9,10 +9,13 @@
   padding-left:  1.5rem;
   padding-right: 1.5rem;
   background-image: linear-gradient(to right,  #ffb3ba,#ffdfba,#ffffba, #baffc9,#bae1ff);
-  background-size: 100% 25px;
+  background-size: 100% 100%;
   background-position: center bottom;
   background-repeat:no-repeat;
   letter-spacing: -1px;
+  @media screen and (min-width: 38em) {
+    background-size: 100% 25px;
+  }
 }
 
 .masthead-title {
@@ -30,5 +33,90 @@
     color: #e75d5d;
     text-decoration: none;
   }
+  
+  small {
+    font-size: 75%;
+    font-weight: 400;
+    opacity: 0.8;
+  }
 
+  small a {
+    display: block;
+    padding: 5px 10px;
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+    @media screen and (min-width: 38em) {
+      display: inline;
+    }
+  }
 }
+
+// mobiel menu
+
+.site-nav {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  border: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: right;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    float: left;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $gray-4;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (min-width: 38em) {
+    position: static;
+    float: right;
+    border: none;
+  
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    }
+  }

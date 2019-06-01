@@ -8,6 +8,12 @@ url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
 
+# Paginas
+pages_list:       
+  over: '/over'
+  archief: '/archief'
+  feed: '/atom.xml'
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -27,6 +33,6 @@ github:
   repo:              https://github.com/poole/poole
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
