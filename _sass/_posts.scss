@@ -81,11 +81,11 @@
   }
 }
 
-// afbeeldingen
+// overpagina
 
 .infodaan {
   @media (min-width: $large-breakpoint) {
-    margin-right: -50px;
+    margin-right: -55px;
     background-image: url('./public/daan.jpg');
     padding-right: 45%;
     background-repeat: no-repeat;
@@ -94,4 +94,39 @@
     padding-bottom: 15px;
     margin-bottom: -35px;
   }
+}
+
+input.naamveld {
+  font-size: 1em;
+  width: 90%;
+  border: 1px solid $gray-3;
+  padding: 10px;
+  color: $gray-4;
+}
+
+input.email {
+  font-size: 1em;
+  width: 95%;
+  border: 1px solid $gray-3;
+  padding: 10px;
+  color: $gray-4;
+}
+
+.voornaam {
+  width: 50%;
+  float: left;
+}
+
+.naam {
+  width: 50%;
+  float: right;
+}
+
+textarea {
+  width: 95%;
+  border: 1px solid $gray-3;
+  font-size: 1em;
+  color: $gray-4;
+  padding: 10px;
+  resize: vertical;
 }
