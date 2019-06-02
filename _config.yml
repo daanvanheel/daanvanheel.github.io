@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               daan vanheel
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Daan Vanheel
+tagline:             persoonlijke website van Daan Vanheel
+url:                 http://daanvanheel.be
 paginate:            5
 baseurl:             ""
 
