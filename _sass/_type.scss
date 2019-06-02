@@ -81,7 +81,7 @@ blockquote {
     margin-bottom: 0;
   }
 
-  @media (min-width: 40em) {
+  @media (min-width: 30em) {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
@@ -112,6 +112,9 @@ a[href^="#fnref:"] {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 .lead {
-  font-size: 1.25rem;
   font-weight: 300;
+  font-size: 1.1rem;
+  @media (min-width: 40em) {
+    font-size: 1.25rem;
+  }
 }
