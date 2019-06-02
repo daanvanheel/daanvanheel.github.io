@@ -21,8 +21,12 @@
               </label>
               <div class="trigger">
                 <small>
-                  {% for page in site.pages_list %}
-                  <a href="{{ page[1]  }}">{{ page[0] }}</a>
+                  {% for node in site.pages_list %}
+                    {% if page.url == node[1] %}
+                      <a href="{{ node[1]  }}" class="actief">{{ node[0] }}</a>
+                    {% else %}
+                      <a href="{{ node[1]  }}">{{ node[0] }}</a>
+                    {% endif %}
                   {% endfor %}
                 </small>
               </div>

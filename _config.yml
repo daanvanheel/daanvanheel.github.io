@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Daan Vanheel
+title:               daan vanheel
 tagline:             persoonlijke website van Daan Vanheel
 url:                 http://daanvanheel.be
 paginate:            5
@@ -10,8 +10,8 @@ baseurl:             ""
 
 # Paginas
 pages_list:       
-  over: '/over'
-  archief: '/archief'
+  over: '/over/'
+  archief: '/archief/'
   feed: '/atom.xml'
 
 # Assets
