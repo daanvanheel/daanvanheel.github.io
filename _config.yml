@@ -5,11 +5,11 @@ permalink:           pretty
 title:               daan vanheel
 tagline:             persoonlijke website van Daan Vanheel
 url:                 http://daanvanheel.be
-paginate:            5
+paginate:            1
 baseurl:             ""
 
-# Paginas
-pages_list:       
+# Pages
+pages_list:
   over: '/over/'
   archief: '/archief/'
   feed: '/atom.xml'
@@ -18,19 +18,21 @@ pages_list:
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+sass_dir:          _sass
+style:             :compressed
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+name:               Mark Otto
+url:                https://twitter.com/mdo
+email:              markdotto@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+repo:               https://github.com/poole/poole
+gtm:                GTM-WF5F6TV
+googlefonts:        
 
 # Gems
 plugins:

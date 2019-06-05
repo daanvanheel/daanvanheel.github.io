@@ -1,20 +1,19 @@
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WF5F6TV');</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ site.gtm }}');</script>
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-    
+
     <!-- responsive design voor mobiele apparaten-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     <title>
-      {% if page.title == "Home" %}
-        {{ site.title }}
-      {% else %}
-        {{ page.title }} &middot; {{ site.title }}
-      {% endif %}
+      {% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}
     </title>
-
+    {% if site.googlefonts %}
+    <!-- Load Google Fonts -->
+    {% for font in site.googlefonts %}<link href="{{ font.url }}" rel="stylesheet">{% endfor %}
+    {% endif %}
     <!-- CSS styling -->
     <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 

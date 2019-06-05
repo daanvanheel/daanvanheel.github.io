@@ -1,0 +1,67 @@
+/*
+ ** Normalization
+  */
+
+// Update the foundational and global aspects of the page.
+
+// remove margins & padding
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset,
+legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0
+}
+
+// reset default browser header sizes
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+// normalize list-style for lists
+ul {
+  list-style: none
+}
+
+// remove margins from forms
+button, input, select, textarea {
+  margin: 0
+}
+
+
+// box-sizing shenanigans
+html {
+  box-sizing: border-box;
+  // Correct the line height in all browsers.
+  // Prevent adjustments of font size after orientation changes in iOS.
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit
+
+}
+
+// reesponsive images and video
+img, video {
+  height: auto;
+  max-width: 100%
+}
+
+// remove border from iframe
+iframe {
+  border:0
+}
+
+// normalize tables
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td, th {
+  text-align:left
+}
