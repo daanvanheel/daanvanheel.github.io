@@ -4,14 +4,11 @@ html {
   font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
-
-  @media (min-width: $large-breakpoint) {
-    font-size: $large-font-size;
-  }
 }
 
 body {
   color: $body-color;
+  background-color: $body-bg;
   border: 0;
 }
 

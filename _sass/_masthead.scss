@@ -10,14 +10,6 @@
   background-position: top;
   border-bottom: 1px solid $gray-2;
   margin-bottom: 1.5rem;
-
-  @media screen and (min-width: $medium-breakpoint) {
-    margin-right: calc(-100vw / 2 + 40rem / 2);
-    background-image: linear-gradient(to right,  #ffb3ba,#ffdfba,#ffffba, #baffc9,#bae1ff 75%);
-    background-size: 100% 25px;
-    background-position: bottom;
-    border: 0;
-  }
 }
 
 .masthead-title {
@@ -27,15 +19,6 @@
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: -1px;
-
-  @media screen and (min-width: $medium-breakpoint) {
-    padding-bottom: 0.8rem;
-  }
-
-  @media screen and (min-width: $large-breakpoint) {
-    font-size: 1.6rem;
-    padding-bottom: 0;
-  }
 
   a {
     color: inherit;
@@ -53,10 +36,6 @@
     font-weight: 400;
     opacity: 0.6;
     margin-right: 20px;
-    @media screen and (min-width: $medium-breakpoint) {
-      margin: 10px 20px;
-      display: inline;
-    }
   }
 
   .actief {
@@ -112,23 +91,4 @@
     margin-bottom: -10px;
   }
 
-  @media screen and (min-width: $medium-breakpoint) {
-    position: inherit;
-    float: left;
-    border: none;
-    display: inline;
-
-    label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
-      display: block;
-    }
-
-    }
-  }
+}

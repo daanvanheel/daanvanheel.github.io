@@ -32,7 +32,10 @@ version:             2.0.0
 github:
 repo:               https://github.com/poole/poole
 gtm:                GTM-WF5F6TV
-googlefonts:        
+googlefonts:
+large-breakpoint:   54em
+medium-breakpoint:  40em
+mobile-breakpoint:  30em
 
 # Gems
 plugins:

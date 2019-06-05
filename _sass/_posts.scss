@@ -83,19 +83,6 @@
 
 // overpagina
 
-.infodaan {
-  @media (min-width: $large-breakpoint) {
-    margin-right: -55px;
-    background-image: url('./public/daan.jpg');
-    padding-right: 45%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right;
-    padding-bottom: 15px;
-    margin-bottom: -35px;
-  }
-}
-
 input.naamveld {
   font-size: 1em;
   width: 90%;

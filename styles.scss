@@ -25,6 +25,13 @@
 // https://github.com/jgthms/minireset.css
 */
 
+// these variables are site-wide config variables so they have to be imported
+// from the main file
+
+$large-breakpoint: {{ site.large-breakpoint }};
+$medium-breakpoint: {{ site.medium-breakpoint }};
+$mobile-breakpoint: {{ site.mobile-breakpoint }};
+
 @import "variables";
 @import "reset";
 @import "base";
