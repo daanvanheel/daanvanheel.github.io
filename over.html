@@ -37,33 +37,29 @@ title: Hallo,  ik ben Daan.
 
 Stuur mij een mailtje op <a href="mailto:hallo@daanvanheel.be">hallo@daanvanheel.be</a>, of gebruik het formulier hieronder.<br /><br />
 
-<script type="text/javascript">var submitted=false;</script>
-  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/done';}"></iframe>
 
-  <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdTHcBtKf7bq9rKYtGWUk_zJ9jyPa3Gm-J1q53LF6fjU-yK5w/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
-    
+<form id="my-form" action="https://formspree.io/f/xknkwgpa" method="POST">
   <p class="voornaam">
   <label>Voornaam</label><br />
-    <input name="entry.1018965909" type="text" class="naamveld" required />
+    <input name="voornaam" type="text" class="naamveld" required />
   </p>
   <p class="naam">
   <label>Naam</label><br />
-    <input name="entry.2143171809" type="text" class="naamveld" required />
+    <input name="naam" type="text" class="naamveld" required />
   </p>
 
   <p>
   <label>E-mailadres</label><br />
-    <input name="entry.478686242" type="email" class="email" required />
+    <input name="email" type="email" class="email" required />
   </p>
   <p>
   <label>Bericht</label>
-    <textarea name="entry.1351183645" rows="4" class="bericht" cols="40"></textarea>
+    <textarea name="bericht" rows="4" class="bericht" cols="40"></textarea>
   </p>
     <input type="checkbox" name="entry.26709258" class="check" value="akkoord" required />
     <label class="privacy">Ik ga akkoord met het <a href="/privacy/">privacybeleid</a>. De ingevulde gegevens worden enkel 
-      gebruikt om uw bericht te kunnen beantwoorden. De website gebruikt Google Forms voor de verwerking van je bericht. 
-      Als je dit niet wil, stuur dan gewoon een mailtje.</label>
-    <input type="submit" value="Send" />
-
+      gebruikt om uw bericht te kunnen beantwoorden.</label>
+    <button id="my-form-button">Verstuur</button>
+  <p id="my-form-status"></p>
   </form>
 </p>
