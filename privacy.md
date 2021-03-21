@@ -3,20 +3,20 @@ layout: page
 title: Privacybeleid
 
 ---
-Deze website dient als verzamelplaats voor teksten en artikels geschreven door Daan Vanheel. 
+Deze website is een verzameling van teksten geschreven door Daan Vanheel. De site is volledig open source en gebruikt <a href="https://jekyllrb.com" alt="Jekyll blogging software" target="_blank">Jekyll</a> gehost op <a href="https://pages.github.comGithub" alt="Github Pages" target="_blank">Github Pages</a>.
 
 ## Gebruikt deze website persoonsgegevens?
 
-Om deze teksten op jouw scherm te krijgen, heeft de website geen persoonsgegevens nodig. Er worden dan ook in principe geen persoonsgegevens verzameld.
+Om deze teksten op jouw scherm weer te geven, heeft de website geen persoonsgegevens nodig. Er worden dan ook in principe geen persoonsgegevens verzameld.
 
-Enige uitzondering hierop: bij het gebruik van het contactformulier wordt er gevraagd naar uw naam en e-mailadres. Deze gegevens worden enkel gebruikt om u een antwoord op uw bericht te kunnen sturen en worden enkel bijgehouden zo lang als nodig is om u een antwoord te kunnen bezorgen of totdat u erom verzoekt. 
+Enige uitzondering hierop: bij het gebruik van het contactformulier wordt er gevraagd naar je naam en e-mailadres. Deze gegevens worden enkel gebruikt om u een antwoord op uw bericht te kunnen sturen en worden enkel bijgehouden zo lang als nodig is om u een antwoord te kunnen bezorgen of totdat u erom verzoekt. 
 
-Het formulier gebruikt de gratis versie van Google Forms als back-end voor het bijhouden van de informatie. Google <a href="https://privacy.google.com/businesses/compliance/#!?modal_active=none" target="_blank">verzekert</a> dat zij de verstrekte gegevens niet gebruiken voor andere doeleinden. Het is op heden niet mogelijk een verwerkingsovereenkomst af te sluiten met google voor het gebruik van de gratis versie van Google Forms. Als je je niet comfortabel voelt bij het gebruik van Google Forms, kan je steeds gewoon een mailtje sturen naar hallo@daanvanheel.be, zoals vermeld op het formmulier.
+Het contact-formulier gebruikt op de achtergrond de gratis versie van Formspree als back-end voor het bijhouden van de informatie. Formspree verklaart in haar eigen <a href="https://formspree.io/legal/privacy-policy" target="_blank">privacy policy</a> dat zij de verstrekte gegevens niet verkopen aan derden, maar enkel gebruiken voor het verbeteren van hun dienstverlening. Als je je niet comfortabel voelt bij het gebruik van Formspree, kan je steeds gewoon een mailtje sturen naar hallo@daanvanheel.be. 
 
-Om statistieken te kunnen verzamelen over het gebruik van de website en de populariteit van de artikels, wordt beroep gedaan op de diensten van Google Analytics. Dit is noodzakelijk voor de goede werking van de site. De gegevens zijn: welke pagina's bezocht worden, op welk uur/dag en van welke locatie het bezoek plaats vond. Deze gegevens worden geanonimiseerd, zodat deze niet kunnen worden gelinkt aan een bepaalde gebruiker. Conform de geldende wetgeving zijn deze geanonimiseerde gegevens eigenlijk geen "persoonsgegevens", aangezien ze niet tot de identificatie van de gebruiker kunnen leiden. 
+Deze site verzamelt geen statistieken over het gebruik of haar bezoekers. 
 
 Er worden geen persoonsgegevens verzameld tegen de wil van de gebruiker: enkel en alleen bij het invullen van het contactformulier kan je er zelf voor kiezen om je gegevens door te geven om een antwoord te kunnen krijgen.
 
 ## Cookies
 
-Er wordt maar één cookie gebruikt, en dat is die van Google Analytics. De gegevens worden volledig geanonimiseerd. Onder de vorige titel kan je lezen welke gegevens verzameld worden en waarvoor ze worden gebruikt.
+Er worden geen cookies op je systeem geplaatst.
