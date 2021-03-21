@@ -59,10 +59,10 @@
               'Accept': 'application/json'
           }
         }).then(response => {
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "Bedankt voor je bericht! Ik contacteer je zo spoedig mogelijk.";
           form.reset()
         }).catch(error => {
-          status.innerHTML = "Oops! There was a problem submitting your form"
+          status.innerHTML = "Oeps, er is iets misgegaan! Probeer het nog eens?"
         });
       }
       form.addEventListener("submit", handleSubmit)
