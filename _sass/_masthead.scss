@@ -3,6 +3,9 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
+  max-width: 40rem;
+  margin-left:  auto;
+  margin-right: auto;
   padding: 2rem 1.5rem 3.35rem 1.5rem;
   background-image: linear-gradient(to right,  #ffb3ba,#ffdfba,#ffffba, #baffc9,#bae1ff);
   background-size: 100% 15px;
@@ -10,9 +13,6 @@
   background-position: top;
   border-bottom: 1px solid $gray-2;
   margin-bottom: 1.5rem;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
 }
 
 .masthead-title {
