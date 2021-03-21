@@ -1,5 +1,12 @@
 @media screen and (min-width: $medium-breakpoint) {
 
+  .masthead {
+    background-image: linear-gradient(to right,  #ffb3ba,#ffdfba,#ffffba, #baffc9,#bae1ff 75%);
+    background-size: 100% 25px;
+    background-position: bottom;
+    border: 0;
+  }
+
   .masthead-title {
     padding-bottom: 0.8rem;
   }
