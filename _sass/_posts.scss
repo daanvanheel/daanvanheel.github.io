@@ -109,6 +109,14 @@ input.email {
   float: right;
 }
 
+.verstuur {
+  width: 50%;
+  border: 1px solid $gray-3;
+  padding: 10px;
+  color: $gray-4;
+  font-size:1em;
+}
+
 textarea {
   width: 95%;
   border: 1px solid $gray-3;
